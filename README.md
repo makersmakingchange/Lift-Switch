@@ -57,7 +57,7 @@ The [Maker Guide](/Documentation/Lift_Switch_Maker_Guide.pdf) contains all the n
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/Lift_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
+The [Bill of Materials](/Documentation/Lift_Switch_BOM.csv) lists all of the parts and components required to build the device.
 
 ### 3. Order the Custom PCB
 
@@ -79,7 +79,7 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 | Document             | Version | Link |
 |----------------------|---------|------|
 | Maker Guide          | 1.0     | [Lift_Switch_Maker_Guide](/Documentation/Lift_Switch_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [Lift_Switch_Bill_of_Materials](/Documentation/Lift_Switch_BOM.xlsx)     |
+| Bill of Materials    | 1.0     | [Lift_Switch_Bill_of_Materials](/Documentation/Lift_Switch_BOM.csv)     |
 | User Guide           | 1.0     | [Lift_Switch_User_Guide](/Documentation/lift_Switch_User_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
