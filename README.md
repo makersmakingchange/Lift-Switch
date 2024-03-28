@@ -80,7 +80,7 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 |----------------------|---------|------|
 | Maker Guide          | 1.0     | [Lift_Switch_Maker_Guide](/Documentation/Lift_Switch_Maker_Guide.pdf)     |
 | Bill of Materials    | 1.0     | [Lift_Switch_Bill_of_Materials](/Documentation/Lift_Switch_BOM.csv)     |
-| User Guide           | 1.0     | [Lift_Switch_User_Guide](/Documentation/lift_Switch_User_Guide.pdf)    |
+| User Guide           | 1.0     | [Lift_Switch_User_Guide](/Documentation/Lift_Switch_User_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
