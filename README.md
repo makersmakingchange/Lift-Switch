@@ -4,49 +4,35 @@ Open Source Assistive Technology: GitHub Readme Template
 Version 1.1 (2024-Mar-15)
  --->
 
-<!--- 
-Introductory text. This section and the following text should be removed.
- --->
-This is a GitHub repository intended to act as a template for an open source assistive technology device. It is meant to contain all design files, build files, and documentation for the project. More information about how to use the template is available in the [Documentation_Guide](/Documentation_Guide.docx). You can see examples of other Open AT Devices at the Makers Making Change [website](https://www.makersmakingchange.com/s/category/assistive-devices). 
-
 <!---
 INSTRUCTIONS
 This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
-
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
-This template has a number of fields that can be searched and replaced with other text:
- - <Device_Name> Replace this with filename-friendly version of the device with underscores. e.g., Open_Wobble_Switch
- - <DeviceName> Replace this with the human-readable name of the device with spaces. e.g., Open Wobble Switch
- - <DesignerName> Replace this with the person or organization responsible for the design. e.g., John Doe.
- - <RepositoryLink> Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
- - <MMCWebLink> This is an alphanumeric id for the Makers Making Change Website. e.g., 01tJR000000698oYAA. This will come from MMC staff. 
  --->
  
  <!--- 
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
-# <DeviceName>
-
-
-
+# Lift Switch
 <!--- 
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
+The Lift Switch is a device that modifies the output from your assistive switch. The primary case is for a user who would prefer to rest on their switch and lift off of it to activate it, instead of requiring the user to hover over the switch. There are four operating modes: momentary, latching, timed latch, and reverse acting, described below:
+- Momentary: The output will turn on momentarily when you lift off of the assistive switch.
+- Latching: The output toggles between on/off when you lift off of the assistive switch.
+- Timed Latch: The output will turn on for a set amount of time (7s) when you lift off of the assistive switch.
+- Reverse Acting: Reverses the action of an assistive switch. Assistive switch off (not activated) = Lift Switch on, Assistive switch on (activated) = Lift Switch off.
 
-It is intended for use by makers. 
+The Lift Switch can also be used as a mouse click in any of the above modes, by plugging the Lift Switch into a computer through a USB cable.
 
-The device is comprised of off-the-shelf electronics and 3D printed parts. 
+The total cost of materials to build this device is around \$75 (plus component shipping). The cost of materials per unit is around \$43 (plus component shipping) if you are able to build in bulk.
 
-The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for component shipping).
-
-<img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
+<img src="Photos/Lift-Switch.jpg" width="500" alt="Picture of the Lift Switch.">
 
 ## More info at
-- [Makers Making Change Assisitive Device Listing](<MMCWebLink>)
+- [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/lift-switch/01tJR000003UiczYAC)
+
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -55,7 +41,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assisitive Device Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/lift-switch/01tJR000003UiczYAC) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -66,21 +52,24 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/<Device_Name>_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
+The [Maker Guide](/Documentation/Lift_Switch_Maker_Guide.pdf) contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/<Device_Name>_BOM.xlsx) lists all of the parts and components required to build the device.
+The [Bill of Materials](/Documentation/Lift_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
 
+### 3. Order the Custom PCB
 
-### 3. Print the 3D Printable components
+This device requires a custom PCB. Instructions are provided in the [Maker Guide](/Documentation/Lift_Switch_Maker_Guide.pdf) and the PCB fabrication files are available in the [PCB Build Files](/Build_Files/PCB_Build_Files).
+
+### 4. Print the 3D Printable components
 
 All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
-### 4. Assemble the <DeviceName>
+### 5. Assemble the Lift Switch
 
-Reference the [Assembly Guide](/Documentation/<Device_Name>_Assembly_Guide.pdf) for the tools and steps required to build each portion.
+Reference the [Maker Guide](/Documentation/Lift_Switch_Maker_Guide.pdf) for the tools and steps required to build each portion.
 
 ## How to improve this Device
 As open source assistive technology, you are welcomed and encouraged to improve upon the design. 
@@ -89,10 +78,9 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 ### Documentation
 | Document             | Version | Link |
 |----------------------|---------|------|
-| Design Rationale     | 1.0     | [<DeviceName>_Design_Rationale](/Documentation/<Device_Name>_Design_Rationale.pdf)     |
-| Maker Guide          | 1.0     | [<DeviceName>_Maker_Checklist](/Documentation/<Device_Name>_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [<DeviceName>_Bill_of_Materials](/Documentation/<Device_Name>_BOM.xlsx)     |
-| User Guide           | 1.0     | [<DeviceName>_User_Guide](/Documentation/<Device_Name>_Quick_Guide.pdf)    |
+| Maker Guide          | 1.0     | [Lift_Switch_Maker_Guide](/Documentation/Lift_Switch_Maker_Guide.pdf)     |
+| Bill of Materials    | 1.0     | [Lift_Switch_Bill_of_Materials](/Documentation/Lift_Switch_BOM.xlsx)     |
+| User Guide           | 1.0     | [Lift_Switch_User_Guide](/Documentation/lift_Switch_User_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
@@ -118,7 +106,11 @@ Provide any necessary attribution for designs or components that are included in
 --->
 ## Attribution
 
-The device was designed by <DesignerName>. 
+The Lift Switch was designed by the Rehabilitation Engineering Department at Horizon Health's Stan Cassidy Centre for Rehabilitation (SCCR). Development was supported through the Government of Canada's Innovation Science and Economic Development  [Accessible Technology Program](https://ised-isde.canada.ca/site/accessible-technology-program). The ATP program enabled SCCR to deploy numerous Lift Switches to users at reduced cost.
+
+The latest design (V2.0) incorporates feedback and suggestions from numerous users, clinicians, and volunteer makers.
+
+The latest design incorporates several commercially available open source hardware components from [Adafruit](https://www.adafruit.com/). The Lift Switch firmware utilizes the [Arduino](https://www.arduino.cc/) development platform, and a number of libraries developed and shared by the open source community.
 
 <!---
 This is the attribution for the template.
@@ -131,9 +123,14 @@ List the names of the people that contributed to the design. This could include 
 --->
 ### Contributors
 
-Designers:
- - Designer 1 
- - Designer 2
+- Rachelle Bernier, Horizon Health Network.
+- Marla Calder, Horizon Health Network
+- Natasha Hanson, Horizon Health Network
+- Dorian Hawkes, Horizon Health Network
+- Rick McCaskill, Horizon Health Network
+- Billie O'Connor, Horizon Health Network
+- Kristen Culberson, Horizon Health Network
+- Josie Versloot, Neil Squire Society / Makers Making Change
 
 
 <!---
@@ -141,18 +138,21 @@ LICENSE
 Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials.
 --->
 ## License
-Copyright (c) YYYY <DesignerName>.
+Copyright (c) 2020-2024 Stan Cassidy Centre for Rehabilitation.
 
 This repository describes Open Hardware:
- - Everything needed or used to design, make, test, or prepare the <Device-Name> is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
+ - Everything needed or used to design, make, test, or prepare the Lift Switch is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
  - All software is under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl.html).
- - Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the <Device-Name> are published under a [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) .
+ - Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Lift Switch are published under a [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) .
 
 You may redistribute and modify this documentation and make products using it under the terms of the [CERN-OHL-W v2](https://cern.ch/cern-ohl).
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-W v2 for applicable conditions.
 
-Source Location: <Repository_Link> 
+Source Location: https://github.com/makersmakingchange/Lift-Switch
+
+<img src="LICENSES/oshw_licenses.png" alt="List of open source licenses. Hardware: CERN-OHL-W-2.0, Software: GPL-3.0-or-later, Documentation: CC-BY-SA-4.0.">
+
 
 
 ---
