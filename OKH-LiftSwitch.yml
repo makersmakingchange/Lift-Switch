@@ -62,11 +62,11 @@ contributors:
     affiliation: Neil Squire Society
 version: "4.0"
 development-stage: product
-documentation-home: https://github.com/makersmakingchange/LipSync
-archive-download: https://github.com/makersmakingchange/LipSync/archive/refs/heads/main.zip
+documentation-home: https://github.com/makersmakingchange/Lift-Switch
+archive-download: https://github.com/makersmakingchange/Lift-Switch/archive/refs/heads/main.zip
 design-files:
-  - path: https://github.com/makersmakingchange/LipSync/tree/master/Design_Files/CAD_Design_Files
-    title: LipSync CAD Files
+  - path: https://github.com/makersmakingchange/Lift-Switch/tree/master/Design_Files/CAD_Design_Files
+    title: Lift Switch CAD Files
 documentation-language: en-CA
 bom: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_BOM.csv
 tool-list: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_Maker_Guide.pdf
