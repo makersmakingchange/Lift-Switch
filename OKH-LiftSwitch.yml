@@ -1,0 +1,86 @@
+title: Lift Switch
+description: "The Lift Switch is a device that modifies the output from an assistive
+  switch. This  can enable a user who would prefer to rest on their switch and
+  lift off of it to activate it, instead of requiring the user to hover over the
+  switch. There are four operating modes: momentary, latching, timed latch, and
+  reverse acting. The Lift Switch adapter can be used with a switch-adapted
+  device or as a switch interface for a computer."
+intended-use: This hardware is intended for use by people with disabilities to expand
+  functionality or enable functionality of an assistive switch.
+keywords:
+  - openAT
+  - computer-access
+  - switch-adapted
+  - switch-modifier
+  - disability
+  - accessibility
+  - switch-interface
+project-link: https://github.com/makersmakingchange/Lift-Switch
+image: https://github.com/makersmakingchange/Lift-Switch/archive/refs/heads/main.zip
+made: true
+made-independently: true
+license:
+  hardware: CERN-OHL-W-2.0
+  documentation: CC-BY-SA-4.0
+  software: GPL-3.0-or-later
+licensor:
+  name: Rachelle Bernier
+  affiliation: Horizon Health Network
+  email: rachelle.bernier@horizonnb.ca
+okh-manifest-version: 1.0.0
+date-created: 2024-03-28
+date-updated: 2024-01-10
+manifest-author:
+  name: Jacob McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+manifest-language: en-CA
+contact:
+  name: Makers Making Change
+  affiliation: Neil Squire Society
+  email: info@makersmakingchange.com
+  social:
+    - platform: Instagram
+      user-handle: "@makermakingchange"
+    - null
+contributors:
+  - name: Rachelle Bernier
+    affiliation: Horizon Health Network
+  - name: Marla Calder
+    affiliation: Horizon Health Network
+  - name: Natasha Hanson
+    affiliation: Horizon Health Network
+  - name: Dorian Hawkes
+    affiliation: Horizon Health Network
+  - name: Rick McCaskill
+    affiliation: Horizon Health Network
+  - name: Billie O'Connor
+    affiliation: Horizon Health Network
+  - name: Kristen Culberson
+    affiliation: Horizon Health Network
+  - name: Josie Versloot
+    affiliation: Neil Squire Society
+version: "4.0"
+development-stage: product
+documentation-home: https://github.com/makersmakingchange/LipSync
+archive-download: https://github.com/makersmakingchange/LipSync/archive/refs/heads/main.zip
+design-files:
+  - path: https://github.com/makersmakingchange/LipSync/tree/master/Design_Files/CAD_Design_Files
+    title: LipSync CAD Files
+documentation-language: en-CA
+bom: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_BOM.csv
+tool-list: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_Maker_Guide.pdf
+making-instructions:
+  - path: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_Maker_Guide.pdf
+    title: Lift Switch Maker Guide
+manufacturing-files:
+  - path: https://github.com/makersmakingchange/Lift-Switch/blob/main/Build_Files/3D_Printing_Files
+    title: 3D Printing Files
+  - path: https://github.com/makersmakingchange/Lift-Switch/blob/main/Build_Files/PCB_Build_Files
+    title: PCB Files
+operating-instructions:
+  - path: User Guide
+    title: https://github.com/makersmakingchange/Lift-Switch/blob/main/Documentation/Lift_Switch_User_Guide.pdf
+software:
+  - path: https://github.com/makersmakingchange/Lift-Switch/blob/main/Build_Files/Firmware_Files
+    title: Firmware Files
