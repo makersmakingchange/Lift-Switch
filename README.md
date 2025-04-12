@@ -1,23 +1,9 @@
+<!---  Open Source Assistive Technology: GitHub Readme Template Version 1.1 (2024-Mar-15)  --->
 
-<!--- 
-Open Source Assistive Technology: GitHub Readme Template
-Version 1.1 (2024-Mar-15)
- --->
-
-<!---
-INSTRUCTIONS
-This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
- --->
- 
- <!--- 
-TITLE
-Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
- --->
+<!-- TITLE --->
 # Lift Switch
-<!--- 
-SUMMARY
-A brief summary of the project. What it does, who it is for, how much it costs.
- --->
+<!--- SUMMARY -->
+<!-- A brief summary of the project. What it does, who it is for, how much it costs. -->
 The Lift Switch is a device that modifies the output from your assistive switch. The primary case is for a user who would prefer to rest on their switch and lift off of it to activate it, instead of requiring the user to hover over the switch. There are four operating modes: momentary, latching, timed latch, and reverse acting, described below:
 - Momentary: The output will turn on momentarily when you lift off of the assistive switch.
 - Latching: The output toggles between on/off when you lift off of the assistive switch.
@@ -30,8 +16,8 @@ The total cost of materials to build this device is around \$75 (plus component 
 
 <img src="Photos/Lift-Switch.jpg" width="500" alt="Picture of the Lift Switch.">
 
-## More info at
-- [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/lift-switch/01tJR000003UiczYAC)
+## Makers Making Change Assistive Device Library Listing
+- https://www.makersmakingchange.com/s/product/lift-switch/01tJR000003UiczYAC
 
 
 ## How to Obtain the Device
@@ -155,8 +141,9 @@ Source Location: https://github.com/makersmakingchange/Lift-Switch
 
 
 
----
+----
 
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
@@ -175,3 +162,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->
